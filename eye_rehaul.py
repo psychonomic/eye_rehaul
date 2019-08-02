@@ -261,7 +261,7 @@ def run_analysis(task, ppd, xpixels, ypixels, sampling_rate, base_path):
 
 						# gather data
 						data = [[task, group, subject, trial_num, outcome,
-								 target_x, target_y, target_y,
+								 target_x, target_y, target_t,
 								 saccade[0],saccade[1],saccade[2],
 								 saccade[3],saccade[4],saccade[5],
 								 saccade_num, saccade[6], saccade[7],saccade[8]]]
